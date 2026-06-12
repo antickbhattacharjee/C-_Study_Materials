@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Portal</title>
+</head>
+<body>
+    <h2>Login</h2>
+    <form action="/submit" method="post">
+        <input type="hidden" name="action" value="login">
+        ID: <input type="number" name="id"><br>
+        Password: <input type="text" name="pass"><br>
+        <input type="submit" value="Login">
+    </form>
+
+    <h2>Sign Up</h2>
+    <form action="/submit" method="post">
+        <input type="hidden" name="action" value="signup">
+        Name: <input type="text" name="name"><br>
+        Roll: <input type="number" name="roll"><br>
+        Email: <input type="text" name="mail"><br>
+        Marks: <input type="number" name="marks"><br>
+        ID: <input type="number" name="id"><br>
+        Password: <input type="text" name="pass"><br>
+        <input type="submit" value="Sign Up">
+    </form>
+
+    {% if result %}
+        <hr>
+        <h3>Result:</h3>
+        <pre>{{ result }}</pre>
+    {% endif %}
+</body>
+</html>
