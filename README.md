@@ -1,4 +1,4 @@
-# 🎓 C++ Coaching Repository
+# 🎓 C++ Learning Repository
 
 Welcome to the C++ Coaching Repository! This repository is designed as a structured, day-by-day learning journey to master C++ from the ground up. Whether you are a beginner or looking to solidify your object-oriented programming concepts, this syllabus has been crafted to provide both theoretical knowledge and hands-on practice.
 
